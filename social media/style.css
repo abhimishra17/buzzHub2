@@ -1,0 +1,125 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f0f0f5; /* Light gray background */
+  color: #333;
+}
+
+.app-container, .login-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px; /* Rounded corners */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #4a4e69; /* Dark muted purple */
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input, 
+.post-form input, 
+.post-form textarea, 
+.post-form button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Soft border color */
+  border-radius: 8px;
+}
+
+.post-form {
+  margin-top: 20px;
+}
+
+#title, #description {
+  font-size: 16px;
+  background: #ffffff;
+}
+
+#post-button {
+  background: #6c757d; /* Muted grayish-blue color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#post-button:hover {
+  background: #495057; /* Slightly darker shade on hover */
+}
+
+.post-feed {
+  margin-top: 30px;
+}
+
+.post-feed h3 {
+  text-align: center;
+  background: #495057; /* Dark muted color */
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.post {
+  border: 1px solid #ddd; /* Soft border */
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background: #ffffff; /* Plain white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.post h3 {
+  margin: 0;
+  color: #333; /* Standard dark text color */
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.sample-credentials {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.like-button, .dislike-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dislike-button {
+  background-color: #f44336; /* Red */
+}
+
+
+
